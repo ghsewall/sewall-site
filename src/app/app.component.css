@@ -1,0 +1,25 @@
+#brainVid {
+    min-width: 100%;
+    min-height: 500px;
+}
+
+.video_teaser {
+    position: relative;
+    min-width: 100%;
+    min-height: 961px;
+}
+
+.video_teaser video,
+.video_teaser app-services {
+    position: absolute;
+}
+
+.video_teaser app-services {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 75%;
+}
