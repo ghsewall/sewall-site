@@ -21,7 +21,7 @@ body {
  font-weight: 400;
  background: #fff;
  overflow-x: hidden;
- background: url(/assets/img/bg/bg.gif) 0 0 repeat fixed;
+ background: url(assets/img/bg/bg.gif) 0 0 repeat fixed;
 }
 
 html {
@@ -584,7 +584,7 @@ button:focus {
     Hero Area
     ========================================================================== */
 .hero-area {
-  background: url(/assets/img/hero-area.jpg) no-repeat;
+  background: url(assets/img/hero-area.jpg) no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -662,7 +662,7 @@ button:focus {
   Hero Production version
   ========================================================================== */
 .hero-area-2 {
-  background: url(/assets/img/bg/hero-area-2.jpg) fixed no-repeat;
+  background: url(assets/img/bg/hero-area-2.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -943,7 +943,7 @@ button:focus {
     call to action
     ========================================================================== */
 #cta {
-  background: url(/assets/img/bg/bg-cta.jpg) fixed;
+  background: url(assets/img/bg/bg-cta.jpg) fixed;
   background-size: cover;
 }
 
@@ -977,7 +977,7 @@ button:focus {
   Video promo Style
   ========================================================================== */
 .video-promo {
-  background: url(/assets/img/bg/video.jpg);
+  background: url(assets/img/bg/video.jpg);
   position: relative;
 }
 
@@ -2063,7 +2063,7 @@ textarea {
   19. Subscribe Style
   ========================================================================== */
 #subscribe {
-  background: url(/assets/img/bg/bg-subs.jpg);
+  background: url(assets/img/bg/bg-subs.jpg);
   position: relative;
 }
 
@@ -2307,7 +2307,7 @@ footer .menu li a:hover {
   Counter Section Style
   ========================================================================== */
 .counters {
-  background: url(/assets/img/bg/bg-counter.jpg) fixed;
+  /*background: url(assets/img/bg/bg-counter.jpg) fixed;*/
   position: relative;
 }
 
