@@ -45,3 +45,7 @@
 .navbar-collapse {
   margin-left: 50px;
 }
+
+ul li {
+  min-width: 150px;
+}
