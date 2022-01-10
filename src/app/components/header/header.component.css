@@ -39,5 +39,9 @@
 
 .logo_container img {
   position: absolute;
-  top: -10px;
+  top: -18px;
+}
+
+.navbar-collapse {
+  margin-left: 50px;
 }

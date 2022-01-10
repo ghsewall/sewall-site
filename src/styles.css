@@ -61,7 +61,8 @@ ul {
 }
 
 ul li {
- list-style: none;
+  list-style: none;
+  min-width: 150px;
 }
 
 a:hover,
@@ -501,7 +502,8 @@ button:focus {
 
 .navbar-expand-md .navbar-nav .nav-link {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
   padding: 5px 0px;
   margin-left: 30px;
   position: relative;
@@ -526,7 +528,7 @@ button:focus {
 }
 
 .navbar-brand img {
-  max-width: 115px;
+  max-width: 160px;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:focus,

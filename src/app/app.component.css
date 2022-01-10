@@ -10,16 +10,46 @@
 }
 
 .video_teaser video,
-.video_teaser app-services {
+.video_teaser .teaser_text {
     position: absolute;
 }
 
-.video_teaser app-services {
+.video_teaser .teaser_text {
     position: absolute;
-    background-color: white;
-    top: 50%;
+    color: white;
+    top: 275px;
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 75%;
+    padding: 1% 10% 1% 1%;
+    width: 60%;
 }
+
+.teaser_text h1 {
+    font-size: 65px;
+}
+
+.teaser_text p {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 1em;
+}
+
+.teaser_text h1,
+.teaser_text p {
+    color: white;
+}
+
+.video_teaser video {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+}
+/* .video_teaser::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0,0,0,0.25);
+} */
