@@ -1,47 +1,41 @@
-#brainVid {
-    min-width: 100%;
-    min-height: 500px;
+.video_teaser video {
+    object-fit: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
 }
 
-.video_teaser {
-    position: relative;
-    min-width: 100%;
-    min-height: 961px;
-}
-
-.video_teaser video,
-.video_teaser .teaser_text {
-    position: absolute;
-}
-
-.video_teaser .teaser_text {
+.overlay-vid {
     position: absolute;
     color: white;
-    top: 200px;
+    top: 0;
     left: 0;
     right: 0;
-    margin: 0 auto;
-    padding: 1% 10% 1% 1%;
-    width: 60%;
+    bottom: 0;
 }
 
-.teaser_text h1 {
+.overlay-vid h1 {
     font-size: 65px;
     margin-bottom: 1em;
 }
 
-.teaser_text p {
+.overlay-vid p {
     font-size: 22px;
     line-height: 1.6em;
     margin-bottom: 1em;
 }
 
-.teaser_text h1,
-.teaser_text p {
+.overlay-vid h1,
+.overlay-vid p {
     color: white;
 }
 
 .video_teaser video {
     filter: brightness(50%);
     -webkit-filter: brightness(50%);
+}
+
+.teaser-text {
+    padding-top: 180px;
 }

@@ -807,56 +807,6 @@ button:focus {
 }
 
 /* ==========================================================================
-    Video Background
-    ========================================================================== */
-#video-area {
-  overflow: hidden;
-  position: relative;
-}
-
-#video-area .contents {
-  padding: 160px 0 80px;
-}
-
-#video-area .contents h1 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 300;
-  margin-bottom: 25px;
-  line-height: 70px;
-}
-
-#video-area .contents p {
-  font-size: 14px;
-  color: #fff;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-}
-
-#video-area .contents .btn {
-  margin: 20px 10px;
-  text-transform: uppercase;
-}
-
-#video-area .banner_bottom_btn {
-  margin-top: 40px;
-}
-
-#video-area .banner_bottom_btn i {
-  color: #fff;
-  font-size: 48px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#video-area .banner_bottom_btn i:hover {
-  color: #6B112D;
-}
-
-/* ==========================================================================
   About Section Style
     ========================================================================== */
 #about {
@@ -989,41 +939,6 @@ button:focus {
 
 .call-action .cta-trial p {
   margin-bottom: 30px;
-}
-
-/* ==========================================================================
-  Video promo Style
-  ========================================================================== */
-.video-promo {
-  background: url(assets/img/bg/video.jpg);
-  position: relative;
-}
-
-.video-promo .video-promo-content {
-  color: #fff;
-}
-
-.video-promo .video-promo-content .video-popup {
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  border: 3px solid #fff;
-  color: #fff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 26px;
-}
-
-.video-promo .video-promo-content h2 {
-  margin-top: 30px;
-  color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-}
-
-.video-promo .video-promo-content p {
-  color: #fff;
 }
 
 /* ==========================================================================

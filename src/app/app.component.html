@@ -2,20 +2,29 @@
     <app-header></app-header>
     <!-- Header Section End -->
     <div class="video_teaser">
-      <video autoplay muted loop id="brainVid"  oncanplay="this.play()" onloadedmetadata="this.muted = true">
+      <video autoplay muted loop playsinline id="brainVid" oncanplay="this.play()" onloadedmetadata="this.muted = true">
         <source src="assets/media/brain.mp4" type="video/mp4">
       </video>
-      <div class="teaser_text">
-        <h1>Blockchain and financial market innovation</h1>
-        <p>
-          The financial services industry, processing trillions of dollars’ worth of transactions daily, is exploring how blockchain can address inefficiencies and loopholes in the current system.
-        </p>
-        <p>
-          As a tamper-proof technology, blockchain has the potential to drive down transaction costs and timelines significantly, while increasing transparency and security not to mention improving overall market efficiency.
-        </p>
-        <p>
-          <i>That’s what Sewall is made for.</i>
-        </p>
+      <div class="overlay-vid">
+        <div class="container">
+          <div class="row">
+            <div class="teaser-text col-lg-12 col-md-12 col-xs-12">
+              <h1>Blockchain and financial market innovation</h1>
+              <p>
+                The financial services industry, processing trillions of dollars’ worth of transactions daily, is
+                exploring how blockchain can address inefficiencies and loopholes in the current system.
+              </p>
+              <p>
+                As a tamper-proof technology, blockchain has the potential to drive down transaction costs and timelines
+                significantly, while increasing transparency and security not to mention improving overall market
+                efficiency.
+              </p>
+              <p>
+                <i>That’s what Sewall is made for.</i>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <app-services></app-services>
@@ -29,7 +38,7 @@
       <i class="lni-arrow-up"></i>
     </a>
 
-<!--     <div id="loader">
+    <!--     <div id="loader">
       <div class="spinner">
         <div class="double-bounce1"></div>
         <div class="double-bounce2"></div>
