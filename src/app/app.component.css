@@ -27,10 +27,11 @@
 
 .teaser_text h1 {
     font-size: 65px;
+    margin-bottom: 1em;
 }
 
 .teaser_text p {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 1.6em;
     margin-bottom: 1em;
 }
