@@ -93,31 +93,51 @@
 }
 
 .item-boxes {
-    padding: 50px 30px 80px 30px;
-    border-radius: 4px;
-    border: 1px solid #eaeaea;
-    margin: 15px 0;
-    webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+  padding: 50px 30px 80px 30px;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
+  margin: 15px 0;
+  webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-  .item-boxes .icon {
-    margin-bottom: 10px;
-  }
+.item-boxes .icon {
+  margin-bottom: 10px;
+}
 
-  .item-boxes .icon i {
-    font-size: 30px;
-    line-height: 60px;
-    color: #6B112D;
-  }
+.item-boxes .icon i {
+  font-size: 30px;
+  line-height: 60px;
+  color: #6B112D;
+}
 
-  .item-boxes h4 {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 15px;
-  }
+.item-boxes h4 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
 
-  .item-boxes p {
-    margin: 0;
-  }
+.item-boxes p {
+  margin: 0;
+}
+
+.robot {
+  background-image: url("../../../assets/img/icons/robot.png");
+}
+
+.lamp {
+  background-image: url("../../../assets/img/icons/ampoule.png");
+}
+
+.people {
+  background-image: url("../../../assets/img/icons/people.png");
+}
+
+.base_ico {
+  width: 95px;
+  height: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
