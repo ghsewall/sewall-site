@@ -49,3 +49,9 @@
 ul li {
   min-width: 150px;
 }
+
+.legend {
+  font-size: 12px;
+  text-align: right;
+  color: #6B112D;
+}
