@@ -10,6 +10,7 @@ import { TeaserComponent } from './components/teaser/teaser.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MapComponent } from './components/map/map.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { OfficesComponent } from './components/offices/offices.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TeaserComponent,
     ContactComponent,
     MapComponent,
-    FooterComponent
+    FooterComponent,
+    OfficesComponent
   ],
   imports: [
     BrowserModule,

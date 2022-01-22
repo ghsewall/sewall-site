@@ -1,0 +1,81 @@
+.flip-rotate {
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+}
+
+.flip-rotate .gva .front {
+    background-image: url(../../../assets/img/bg/location/gva.jpeg);
+}
+
+.flip-rotate .gva .back {
+    background-color: #2085ef;
+}
+
+.flip-rotate .hkg .back {
+    background-color: #efd020;
+}
+
+.flip-rotate .hkg .front {
+    background-image: url(../../../assets/img/bg/location/hk.jpeg);
+}
+
+.flip-rotate .asu .back {
+    background-color: #43ef20;
+}
+
+.flip-rotate .asu .front {
+    background-image: url(../../../assets/img/bg/location/asu.jpeg);
+}
+
+.flip-rotate .flip {
+    transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.flip-rotate .front, .flip-rotate .back {
+    min-height: 210px;
+    min-width: 210px;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.flip-rotate .back {
+    text-align: center;
+    line-height: 210px;
+    font-size: 40px;
+    color: white;
+    transform: rotateY(-180deg);
+}
+
+.flip-rotate .front {
+    z-index: 2;
+    transform: rotateY(0deg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flip-rotate:hover .flip .back {
+    transform: rotateY(0deg);
+}
+
+.flip-rotate:hover .flip .front {
+    transform: rotateY(180deg);
+}
+
+.offices-row {
+    background-color: white;
+    padding: 30px;
+}
