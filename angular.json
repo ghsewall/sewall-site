@@ -31,26 +31,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/scripts/js/bootstrap.min.js",
-              "src/scripts/js/classie.js",
-              "src/scripts/js/contact-form-script.js",
-              "src/scripts/js/form-validator.min.js",
-              "src/scripts/js/jquery-min.js",
-              "src/scripts/js/jquery.counterup.min.js",
-              "src/scripts/js/jquery.easing.min.js",
-              "src/scripts/js/jquery.magnific-popup.min.js",
-              "src/scripts/js/jquery.mixitup.js",
-              "src/scripts/js/jquery.nav.js",
-              "src/scripts/js/jquery.stellar.min.js",
-              "src/scripts/js/jquery.vide.js",
-              "src/scripts/js/main.js",
-              "src/scripts/js/menu.js",
-              "src/scripts/js/nivo-lightbox.js",
-              "src/scripts/js/owl.carousel.js",
-              "src/scripts/js/popper.min.js",
-              "src/scripts/js/scrolling-nav.js",
-              "src/scripts/js/waypoints.min.js",
-              "src/scripts/js/wow.js"
             ]
           },
           "configurations": {

@@ -4,10 +4,10 @@
         <a class="navbar-brand logo_container" href="index.html">
             <img src="assets/img/logo.png">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" (click)="showMenu()" [attr.aria-expanded]="!isCollapsed" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <i class="lni-menu"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="collapse navbar-collapse" id="navbarCollapse" [ngbCollapse]="isCollapsed">
           <ul class="navbar-nav mr-auto w-100 justify-content-start">
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#slider-area">Home</a>
@@ -26,6 +26,4 @@
         </div>
       </div>
     </nav>
-    <!-- Main Carousel Section -->
-<!--     <app-carousel></app-carousel> -->
 </header>
