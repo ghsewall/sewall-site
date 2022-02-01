@@ -42,3 +42,7 @@
         min-height: 150vh;
     }
 }
+
+.spacer {
+    height: 100px;
+}

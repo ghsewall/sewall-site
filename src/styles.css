@@ -1733,7 +1733,7 @@ button:focus {
 /* ==========================================================================
     Contact Us
   ========================================================================== */
-#contact {
+#contact, #offices {
   background: #ffffff;
   position: relative;
   overflow: hidden;
