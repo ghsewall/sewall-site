@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 500px){
     .video_teaser video {
-        min-width: auto;
+        min-width: 100%;
         min-height: 150vh;
     }
 }
